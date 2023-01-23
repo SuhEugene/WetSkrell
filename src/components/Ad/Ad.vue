@@ -10,7 +10,7 @@
     $px: 16px;
 
     max-width: $width;
-    width: 134px;
+    width: $width;
     padding: 12px $px;
 
     color: $text-gray;
@@ -35,6 +35,18 @@
     transition: .13s box-shadow;
     &:hover {
       box-shadow: 0 0 0 1px $bg-light-gray;
+    }
+  }
+
+  @media (max-width: $small-screen) {
+    .promotion {
+      $width: 120px;
+      $px: 10px;
+
+      max-width: $width;
+      width: $width;
+      padding: 8px $px;
+      &__image { max-width: $width - ($px * 2); }
     }
   }
 </style>

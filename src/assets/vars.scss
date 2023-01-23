@@ -2,6 +2,7 @@ $bg-black: #111111;
 $bg-dark: #1a1a1a;
 $bg-gray: #232323;
 $bg-light-gray: #353535;
+$bg-half-white: #4f4f4f;
 // $text-white: #FFFFFF;
 // $text-gray: #D4D4D4;
 // $text-light: #4f4f4f;
@@ -9,6 +10,8 @@ $bg-light-gray: #353535;
 $text-white: #E6E6E6;
 $text-gray: #C3C3C3;
 $text-light: #4f4f4f;
+
+$true-white: #FFFFFF;
 
 $font-light: 300;
 $font-regular: 400;
@@ -20,4 +23,9 @@ $shadow-light: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 $nav-height: 48px;
 $nav-margin-bottom: 32px;
 
+// Layers
 $z-navbar: 10;
+
+// Screens
+$medium-screen: 1100px;
+$small-screen: 600px;

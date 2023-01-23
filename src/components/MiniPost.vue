@@ -1,18 +1,16 @@
 <template>
-  <RouterLink to="/" class="post">
-    <div class="post__header">
-      <h3 class="post__title">Колин и Рихтер</h3>
-      <div class="post__date">21:17 23.08.2022</div>
+  <a class="minipost">
+    <div class="minipost__header">
+      <h3 class="minipost__title">Колин и Рихтер</h3>
+      <div class="minipost__date">21:17 23.08.2022</div>
     </div>
-    <p class="post__body">Захватывающая история страстной любви вульпканина и унатха.</p>
-    <div class="post_footer"></div>
-  </RouterLink>
+    <p class="minipost__body">Захватывающая история страстной любви вульпканина и унатха.</p>
+    <div class="minipost_footer"></div>
+  </a>
 </template>
 <style scoped lang="scss">
-  .post {
-    color: inherit;
-
-    width: 100%;
+  .minipost {
+    width: 380px;
     padding: 16px 20px;
 
     border: 1px solid $bg-gray;
@@ -40,7 +38,8 @@
 
     cursor: pointer;
     transition: .13s box-shadow;
-    &:hover { box-shadow: 0 0 0 1px $bg-light-gray; }
-    &:active { box-shadow: 0 0 0 1px $bg-half-white; }
+    &:hover {
+      box-shadow: 0 0 0 1px $bg-light-gray;
+    }
   }
 </style>
