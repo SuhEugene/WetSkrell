@@ -1,8 +1,8 @@
 <template>
   <div class="nav-user">
-    <router-link class="nav-link" to="/tags">Регистрация</router-link>
+    <router-link class="nav-link" to="/auth">Регистрация</router-link>
     <div class="nav-user__separator"></div>
-    <router-link class="nav-link" to="/tags">Вход</router-link>
+    <router-link class="nav-link" to="/auth">Вход</router-link>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -12,7 +12,7 @@
   &__separator {
     height: 20px;
     width: 1px;
-    background: $bg-light-gray;
+    background: $bg-gray-2;
     margin: 0 12px;
   }
 }

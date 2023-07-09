@@ -6,7 +6,7 @@
 </template>
 <style lang="scss">
   .promotion {
-    $width: 134px;
+    $width: $side-width;
     $px: 16px;
 
     max-width: $width;
@@ -14,7 +14,7 @@
     padding: 12px $px;
 
     color: $text-gray;
-    // border: 1px solid $bg-gray;
+    // border: 1px solid $bg-gray-1;
     border-radius: 5px;
 
     &__image {
@@ -34,7 +34,7 @@
     cursor: pointer;
     transition: .13s box-shadow;
     &:hover {
-      box-shadow: 0 0 0 1px $bg-light-gray;
+      box-shadow: 0 0 0 1px $bg-gray-2;
     }
   }
 

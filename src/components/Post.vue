@@ -12,10 +12,12 @@
   .post {
     color: inherit;
 
-    width: 100%;
+    width: $main-width - $main-gap - $side-width;
     padding: 16px 20px;
 
-    border: 1px solid $bg-gray;
+    background-color: $bg-dark;
+
+    border: 1px solid $bg-gray-1;
     border-radius: 5px;
     // box-shadow: 0 0 0 1px black;
 
@@ -40,7 +42,10 @@
 
     cursor: pointer;
     transition: .13s box-shadow;
-    &:hover { box-shadow: 0 0 0 1px $bg-light-gray; }
-    &:active { box-shadow: 0 0 0 1px $bg-half-white; }
+    transition: .13s border-color;
+    // &:hover { box-shadow: 0 0 0 1px $bg-gray-2; }
+    // &:active { box-shadow: 0 0 0 1px $bg-gray-4; }
+    &:hover { border-color: $bg-gray-3; }
+    &:active { border-color: $bg-gray-4; }
   }
 </style>

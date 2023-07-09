@@ -1,7 +1,7 @@
 <template>
   <nav class="nav" id="nav-top">
     <div class="nav__side nav__side--left">
-      <router-link class="nav-link" to="/popular">Популярное</router-link>
+      <router-link class="nav-link" to="/">Популярное</router-link>
       <router-link class="nav-link" to="/best">Лучшее</router-link>
     </div>
     <a class="nav-link" id="logo" href="/">WetSkrell</a>
@@ -27,10 +27,8 @@
     z-index: $z-navbar;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
 
-    background: transparentize($color: $bg-dark, $amount: 0.5);
+    background: transparentize($color: $bg-gray-1, $amount: 0.5);
     box-shadow: $shadow-light;
     backdrop-filter: blur(8px);
 

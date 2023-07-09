@@ -1,8 +1,9 @@
 $bg-black: #111111;
 $bg-dark: #1a1a1a;
-$bg-gray: #232323;
-$bg-light-gray: #353535;
-$bg-half-white: #4f4f4f;
+$bg-gray-1: #232323;
+$bg-gray-2: #353535;
+$bg-gray-3: #404040;
+$bg-gray-4: #4f4f4f;
 // $text-white: #FFFFFF;
 // $text-gray: #D4D4D4;
 // $text-light: #4f4f4f;
@@ -21,7 +22,8 @@ $shadow-light: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 
 
 $nav-height: 48px;
-$nav-margin-bottom: 32px;
+$nav-bottom-height: 54px;
+$nav-margin-bottom: 28px;
 
 // Layers
 $z-navbar: 10;
@@ -29,3 +31,7 @@ $z-navbar: 10;
 // Screens
 $medium-screen: 1100px;
 $small-screen: 600px;
+
+$main-width: 800px;
+$main-gap: 34px;
+$side-width: 134px;

@@ -13,7 +13,7 @@
     width: 380px;
     padding: 16px 20px;
 
-    border: 1px solid $bg-gray;
+    border: 1px solid $bg-gray-1;
     border-radius: 5px;
     // box-shadow: 0 0 0 1px black;
 
@@ -39,7 +39,7 @@
     cursor: pointer;
     transition: .13s box-shadow;
     &:hover {
-      box-shadow: 0 0 0 1px $bg-light-gray;
+      box-shadow: 0 0 0 1px $bg-gray-2;
     }
   }
 </style>
