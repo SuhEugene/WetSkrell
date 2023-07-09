@@ -1,42 +1,32 @@
-# Nuxt 3 Minimal Starter
+# WetSkrell
+Моя попытка сделать интересный мем красивым
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+## Кавочевокуда
 
-Make sure to install the dependencies:
-
+Установка зависимостей:
 ```bash
-# yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
-
+Запуск сервера разработки:
 ```bash
-npm run dev
+yarn dev
 ```
 
-## Production
-
-Build the application for production:
-
+Билд для прода:
 ```bash
-npm run build
+yarn build
 ```
 
-Locally preview production build:
-
+Локально посмотреть билд прода:
 ```bash
-npm run preview
+yarn preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Лицензия
+Захотелось GNU-AGPL-3.0 потому что я могу, меня Baystation12 вдохновили, так что в файле [лицензии](./LICENCE) именно она.
+
+*То есть я имел ввиду...*
+
+Код фронтенда WetSkell лицензирован под [GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl.html), которую можно прочитать полность в файле (`./LICENCE`)(./LICENCE)
